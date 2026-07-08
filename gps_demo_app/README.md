@@ -19,7 +19,7 @@ El backend debe estar publicado en Render y debe tener configurada la variable
 Comprueba desde un navegador:
 
 ```text
-https://TU-SERVICIO.onrender.com/
+https://backend-gps-flutter.onrender.com/
 ```
 
 Debe responder con el mensaje `Backend GPS funcionando en Render`.
@@ -34,8 +34,7 @@ build/app/outputs/flutter-apk/app-release.apk
 
 1. Pasa el APK al teléfono e instálalo.
 2. Abre **Demo GPS PostgreSQL**.
-3. Pega la URL base de Render, por ejemplo
-   `https://mi-backend.onrender.com`.
+3. La URL `https://backend-gps-flutter.onrender.com` ya aparece configurada.
 4. Pulsa **Obtener y enviar ubicación**.
 5. Acepta el permiso de ubicación.
 6. La pantalla mostrará los datos del teléfono y confirmará que PostgreSQL

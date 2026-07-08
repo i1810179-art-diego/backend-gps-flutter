@@ -7,7 +7,7 @@ import 'package:http/http.dart' as http;
 
 const defaultApiUrl = String.fromEnvironment(
   'API_URL',
-  defaultValue: 'https://TU-SERVICIO.onrender.com',
+  defaultValue: 'https://backend-gps-flutter.onrender.com',
 );
 
 void main() {
